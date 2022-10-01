@@ -13,8 +13,27 @@ struct Origin_EvolveApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TabView() {
+                homeView()
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                landmarksList()
+                    .tabItem {
+                        Label("Landmarks", image: "star")
+                    }
+                eventView()
+                    .tabItem {
+                        Label("Events", systemImage: "calendar")
+                    }
+                accountView()
+                    .tabItem {
+                        Label("Account", systemImage: "person")
+                    }
+            }
+            .accentColor(.green)
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
