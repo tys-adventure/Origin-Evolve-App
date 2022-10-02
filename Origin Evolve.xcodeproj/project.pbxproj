@@ -38,6 +38,8 @@
 		5CFB30C228E8A77100109732 /* landmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB30C128E8A77000109732 /* landmarkDetailView.swift */; };
 		5CFB30C328E8A77100109732 /* landmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB30C128E8A77000109732 /* landmarkDetailView.swift */; };
 		5CFB30C428E8A77100109732 /* landmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB30C128E8A77000109732 /* landmarkDetailView.swift */; };
+		5CFB30C628E9089500109732 /* circleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB30C528E9089500109732 /* circleImage.swift */; };
+		5CFB30C828E9095500109732 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB30C728E9095500109732 /* mapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		5CFB30B928E8A28600109732 /* landmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarkRow.swift; sourceTree = "<group>"; };
 		5CFB30BD28E8A4BE00109732 /* landmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarksList.swift; sourceTree = "<group>"; };
 		5CFB30C128E8A77000109732 /* landmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarkDetailView.swift; sourceTree = "<group>"; };
+		5CFB30C528E9089500109732 /* circleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleImage.swift; sourceTree = "<group>"; };
+		5CFB30C728E9095500109732 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,8 @@
 				5CFB309E28E78F4000109732 /* homeView.swift */,
 				5CFB30A228E794A100109732 /* accountView.swift */,
 				5CFB30A028E78F6800109732 /* eventView.swift */,
+				5CFB30C528E9089500109732 /* circleImage.swift */,
+				5CFB30C728E9095500109732 /* mapView.swift */,
 				5C05D68A28DD0E4000F4F04F /* ContentView.swift */,
 				5CFB30B928E8A28600109732 /* landmarkRow.swift */,
 				5CFB30BD28E8A4BE00109732 /* landmarksList.swift */,
@@ -337,8 +343,10 @@
 				5C05D68B28DD0E4000F4F04F /* ContentView.swift in Sources */,
 				5C05D69528DD0E4500F4F04F /* Origin_Evolve.xcdatamodeld in Sources */,
 				5CFB309928E78ABC00109732 /* MainView.swift in Sources */,
+				5CFB30C628E9089500109732 /* circleImage.swift in Sources */,
 				5CFB30BE28E8A4BE00109732 /* landmarksList.swift in Sources */,
 				5CFB30A328E794A100109732 /* accountView.swift in Sources */,
+				5CFB30C828E9095500109732 /* mapView.swift in Sources */,
 				5CFB30A128E78F6800109732 /* eventView.swift in Sources */,
 				5CFB30B328E89E7100109732 /* Data.swift in Sources */,
 				5CFB30BA28E8A28700109732 /* landmarkRow.swift in Sources */,
