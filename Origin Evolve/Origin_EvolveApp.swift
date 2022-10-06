@@ -20,13 +20,13 @@ struct Origin_EvolveApp: App {
                     }
                 landmarksList()
                     .tabItem {
-                        Label("Landmarks", image: "star")
+                        Label("Landmarks", systemImage: "map.fill")
                     }
                 eventView()
                     .tabItem {
                         Label("Events", systemImage: "calendar")
                     }
-                accountView()
+                accountView(landmark: landmarks[0])
                     .tabItem {
                         Label("Account", systemImage: "person")
                     }
